@@ -1,10 +1,11 @@
 describe('Login usuarios alura pic', () => {
 
     beforeEach(() => {
-        cy.visit('/');
+        cy.visit('/')
     })
+    
     it('login correto', () => {
-        cy.login('flavio', '123')
+        cy.login(Cypress.env('userName'), Cypress.env('password'))
         cy.contains('a', '(Logout)').should('be.visible');
     })
 
