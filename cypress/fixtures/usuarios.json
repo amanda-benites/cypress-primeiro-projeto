@@ -1,0 +1,26 @@
+[
+    {
+        "email" : "cinerella@disney.com",
+        "fullName" : "Cinderella",
+        "userName" : "cindy",
+        "password" : "disney01"
+    },
+    {
+        "email" : "bella@disney.com",
+        "fullName" : "Bella",
+        "userName" : "bel1",
+        "password" : "disney02"
+    },
+    {
+        "email" : "branca.neve@disney.com",
+        "fullName" : "Branca de Neve",
+        "userName" : "snow",
+        "password" : "disney03"
+    },
+    {
+        "email" : "rapunzel@disney.com",
+        "fullName" : "Rapunzel Tugled",
+        "userName" : "pascal",
+        "password" : "disney04"
+    }
+    ]
