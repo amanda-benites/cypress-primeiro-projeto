@@ -4,8 +4,8 @@ describe('Funcionalidades tela inicial', () => {
         cy.visit('/');
     })
 
-    const user = 'cindy'
-    const password = 'disney01'
+    const user = 'flavio'
+    const password = '123'
 
     it('pesquisar foto do farol', () => {
         cy.login(user, password);
