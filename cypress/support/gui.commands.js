@@ -13,3 +13,11 @@ Cypress.Commands.add('register', (email, nome, user, senha) => {
     cy.get('input[formcontrolname="password"]').type(senha);
     cy.contains('button', 'Register').click();
 })
+
+Cypress.Commands.add('add_mesada', (mesada, money, date) => {
+    cy.contains('a', '+ Nova Transação').click();
+    cy.get('input[id="description"]').type(mesada);
+    cy.get('input[id="amount"]').type(money);
+    cy.get('input[id="date"]').type(date)
+    cy.contains('button', 'Salvar').click()
+})
